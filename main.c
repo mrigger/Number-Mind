@@ -68,7 +68,7 @@ int main(void)
 
     //If you have -1 figure. The array is given a value of -1.
     for (g = 0; g < 10; g++) {
-        for (f = 0; f < 10; f++) {
+        for (f = 0; f < 9; f++) {
             if(count[g] == -1) {
                 matrix[f][g] = count[g];
             }
